@@ -12,11 +12,11 @@
 <br>
 
 <details>
-<summary><b>📖 Sobre mí</b></summary>
+<summary><b>about me </b></summary>
 <br>
 <div align="left">
 
-Soy una persona enfocada en la excelencia, en el aprendizaje constante y en la responsabilidad como base de todo resultado. Considero que cada proyecto, cada tarea y cada oportunidad, es una ocasión para demostrar carácter, disciplina y capacidad real de aportar valor donde esté. Me adapto a los cambios, analizo con criterio y tomo decisiones buscando siempre la efectividad y la mejora continua. No me conformo con hacer lo mínimo: busco precisión, crecimiento y resultados que se sostengan en el tiempo.
+Soy una persona con gusto por los videojuegos, pero también por el estudio de la estrategia, especialmente en obras como El arte de la guerra. Me atraen la lógica, el análisis y todo aquello que requiera reflexión, estructura y comprensión profunda de los espacios y las situaciones.
 
 </div>
 </details>
@@ -61,7 +61,8 @@ Soy una persona enfocada en la excelencia, en el aprendizaje constante y en la r
 <div align="center">
 
 <blockquote>
-"Aun cuando el destino se oscurezca, seguiré caminando con serenidad… porque mi esencia no se define por la caída, sino por la forma en que me elevo después."
+"Sin importar la carta que la vida entregue, cada persona debe aprender a crear su propia magia."
+"La verdadera riqueza no se mide en dinero, sino en el conocimiento que somos capaces de adquirir y aplicar."
 </blockquote>
 
 </div>
