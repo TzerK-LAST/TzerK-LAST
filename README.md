@@ -8,6 +8,7 @@
 
 <details open> 
 <summary></summary>
+
 <br>
 
 <details>
@@ -19,8 +20,6 @@ Soy una persona enfocada en la excelencia, en el aprendizaje constante y en la r
 
 </div>
 </details>
-
----
 
 <details>
 <summary><b>🛠️ Tecnologías</b></summary>
@@ -55,10 +54,6 @@ Soy una persona enfocada en la excelencia, en el aprendizaje constante y en la r
 
 </details>
 
-</details>
-
----
-
 <details>
 <summary><b>💭 Frase motivacional</b></summary>
 <br>
@@ -70,6 +65,8 @@ Soy una persona enfocada en la excelencia, en el aprendizaje constante y en la r
 </blockquote>
 
 </div>
+
+</details>
 
 </details>
 
