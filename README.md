@@ -86,6 +86,6 @@ Soy una persona con gusto por los videojuegos, pero también por el estudio de l
 
 <br><br>
 
-**Hecho con 💜 por [Meikuto](https://github.com/Meikuto)**
+**Hecho con 💜 por [Meikuto](raw.githack.com/TzerK-LAST/portafolio/refs/heads/main/portafolio/about.html)**
 
 </div>
