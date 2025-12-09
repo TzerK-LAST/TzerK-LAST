@@ -6,12 +6,8 @@
 
 ![Top of pokeball](https://user-images.githubusercontent.com/44261381/209363264-ac854d3c-2cc2-44c4-928e-8a08d1013f46.png)
 
----
-
-### 👤 Mi Perfil
-
----
-
+<details open> 
+<summary></summary>
 <br>
 
 <details>
@@ -56,6 +52,8 @@ Soy una persona enfocada en la excelencia, en el aprendizaje constante y en la r
 </p>
 
 </div>
+
+</details>
 
 </details>
 
