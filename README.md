@@ -88,11 +88,7 @@ Soy una persona con gusto por los videojuegos, pero también por el estudio de l
 
 **Hecho con 💜 por [Meikuto](raw.githack.com/TzerK-LAST/portafolio/refs/heads/main/portafolio/about.html)**
 
-<p align="center">
-  <a href="https://archiveprogram.github.com/">
-    <img alt="𝙶𝚒𝚝𝚑𝚞𝚋 𝙰𝚛𝚌𝚝𝚒𝚌 𝚅𝚊𝚞𝚕𝚝 𝙲𝚘𝚗𝚝𝚛𝚒𝚋𝚞𝚝𝚘𝚛" src = "https://github.com/JayantGoel001/JayantGoel001/blob/master/GIF/arctic.gif" width="100px" height="100px">
-  </a>
-</p>
+![footer](https://github.com/GovindSingh9447/GovindSingh9447/blob/main/WEBP/footer.webp)
 
 
 </div>
