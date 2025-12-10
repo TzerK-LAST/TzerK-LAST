@@ -88,7 +88,8 @@ Soy una persona con gusto por los videojuegos, pero también por el estudio de l
 
 **Hecho con 💜 por [Meikuto](raw.githack.com/TzerK-LAST/portafolio/refs/heads/main/portafolio/about.html)**
 
-![footer](https://github.com/GovindSingh9447/GovindSingh9447/blob/main/WEBP/footer.webp)
+![footer capibara](https://raw.githubusercontent.com/USUARIO/REPO/ruta/imagen.png)
+
 
 
 </div>
