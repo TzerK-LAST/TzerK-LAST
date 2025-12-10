@@ -88,7 +88,11 @@ Soy una persona con gusto por los videojuegos, pero también por el estudio de l
 
 **Hecho con 💜 por [Meikuto](raw.githack.com/TzerK-LAST/portafolio/refs/heads/main/portafolio/about.html)**
 
-![footer capibara](https://raw.githubusercontent.com/USUARIO/REPO/ruta/imagen.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/TzerK-LAST/TzerK-LAST/main/capibara.png" 
+       alt="footer capibara" width="60%" " >
+</div>
+
 
 
 
