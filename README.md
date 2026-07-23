@@ -19,10 +19,7 @@
   <img src="https://skillicons.dev/icons?i=laravel,dotnet,nodejs,react,js,html,css,mysql,postgres,mongodb,docker,git,github,vscode,rider&perline=15" />
 </p>
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=TzerK-LAST&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TzerK-LAST&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/TzerK-LAST/TzerK-LAST/pacman-output/pacman-contribution-graph-dark.svg"/>
