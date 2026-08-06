@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-label="Stack de Meikuto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" role="img" aria-label="Meikuto — Full Stack Developer">
   <defs>
-    <clipPath id="panel"><rect x="1" y="1" width="898" height="358" rx="14"/></clipPath>
+    <clipPath id="panel"><rect x="1" y="1" width="898" height="468" rx="14"/></clipPath>
     <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
       <stop class="sB1" offset="0%" stop-color="#0E0A1A"/><stop class="sB2" offset="100%" stop-color="#181030"/>
     </linearGradient>
@@ -31,6 +31,7 @@
       @keyframes stB1{ 0%,100%{stop-color:#0E0A1A} 50%{stop-color:#080E1C} }
       @keyframes stB2{ 0%,100%{stop-color:#181030} 50%{stop-color:#0C1729} }
       @keyframes tw  { 0%,100%{opacity:.12} 50%{opacity:.95} }
+      @keyframes boot{ 0%{opacity:0} 5%{opacity:1} 84%{opacity:1} 91%{opacity:0} 100%{opacity:0} }
       .ps{animation:ps 14s ease-in-out infinite}   .pf{animation:pf 14s ease-in-out infinite}
       .as{animation:as 14s ease-in-out infinite}   .af{animation:af 14s ease-in-out infinite}
       .hf{animation:hf 14s ease-in-out infinite}   .mf{animation:mf 14s ease-in-out infinite}
@@ -40,16 +41,20 @@
       .sB1{animation:stB1 14s ease-in-out infinite} .sB2{animation:stB2 14s ease-in-out infinite}
       .feat{animation:pf 14s ease-in-out infinite, as 14s ease-in-out infinite}
       .star{animation:tw 3.6s ease-in-out infinite, hf 14s ease-in-out infinite}
-      .d2{animation-delay:.6s,0s} .d3{animation-delay:1.2s,0s} .d4{animation-delay:1.8s,0s}
-      .d5{animation-delay:2.4s,0s} .d6{animation-delay:3s,0s}
+      .s2{animation-delay:.6s,0s} .s3{animation-delay:1.2s,0s} .s4{animation-delay:1.8s,0s}
+      .s5{animation-delay:2.4s,0s} .s6{animation-delay:3s,0s}
+      .b1{animation:boot 13s ease-out infinite, hf 14s ease-in-out infinite}
+      .b2{animation:boot 13s ease-out infinite, hf 14s ease-in-out infinite; animation-delay:.6s,0s}
+      .b3{animation:boot 13s ease-out infinite, hf 14s ease-in-out infinite; animation-delay:1.2s,0s}
+      .b4{animation:boot 13s ease-out infinite, hf 14s ease-in-out infinite; animation-delay:1.8s,0s}
       @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
     </style>
   </defs>
 
   <g clip-path="url(#panel)">
-    <rect width="900" height="360" fill="url(#bg)"/>
-    <rect y="44" width="900" height="316" fill="url(#dots)"/>
-    <circle cx="860" cy="360" r="290" fill="url(#rise)"/>
+    <rect width="900" height="470" fill="url(#bg)"/>
+    <rect y="44" width="900" height="426" fill="url(#dots)"/>
+    <circle cx="870" cy="470" r="320" fill="url(#rise)"/>
 
     <rect class="bf" width="900" height="44" fill="#170F2B"/>
     <line class="hr" x1="0" y1="44" x2="900" y2="44" stroke="#2A1F45"/>
@@ -58,38 +63,39 @@
     <circle class="hf" cx="67" cy="22" r="5.5" fill="#D8B4FE"/>
     <text class="mono mf" x="450" y="27" font-size="12" fill="#7E6B9E" text-anchor="middle">github / TzerK-LAST</text>
 
+    <!-- ░░ arte ░░ -->
     <g fill="none" stroke-linecap="round">
-      <circle class="ps" cx="870" cy="372" r="135" stroke="#7C3AED" stroke-opacity=".42"/>
-      <circle class="af" cx="870" cy="372" r="135" fill="#A855F7" fill-opacity=".05" stroke="none"/>
-      <path class="as" d="M 743 328 Q 870 372 997 326" stroke="#A855F7" stroke-opacity=".18"/>
-      <path class="as" d="M 752 275 Q 870 305 988 272" stroke="#A855F7" stroke-opacity=".12"/>
-      <g transform="translate(870 372) rotate(-16)">
+      <circle class="ps" cx="880" cy="474" r="150" stroke="#7C3AED" stroke-opacity=".42"/>
+      <circle class="af" cx="880" cy="474" r="150" fill="#A855F7" fill-opacity=".05" stroke="none"/>
+      <path class="as" d="M 738 424 Q 880 474 1022 422" stroke="#A855F7" stroke-opacity=".18"/>
+      <path class="as" d="M 748 368 Q 880 402 1012 366" stroke="#A855F7" stroke-opacity=".12"/>
+      <g transform="translate(880 474) rotate(-16)">
         <g transform="scale(1,0.24)">
-          <circle class="ps" r="196" stroke="#7C3AED" stroke-opacity=".45" stroke-width="2"/>
+          <circle class="ps" r="212" stroke="#7C3AED" stroke-opacity=".45" stroke-width="2"/>
           <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
-             <circle class="hf" cx="196" cy="0" r="6" fill="#D8B4FE" stroke="none"/></g>
+             <circle class="hf" cx="212" cy="0" r="6" fill="#D8B4FE" stroke="none"/></g>
         </g>
       </g>
 
       <g class="as" stroke="#A855F7" stroke-opacity=".42">
-        <path d="M 604 128 L 660 82 L 726 112 L 788 70 L 852 104"/>
-        <path d="M 726 112 L 700 162"/>
-        <path d="M 852 104 L 876 158"/>
+        <path d="M 600 138 L 656 88 L 724 120 L 790 74 L 856 110"/>
+        <path d="M 724 120 L 698 172"/>
+        <path d="M 856 110 L 878 166"/>
       </g>
       <g class="hf" fill="#D8B4FE" stroke="none">
-        <circle cx="604" cy="128" r="2.4"/><circle cx="660" cy="82" r="3.6"/>
-        <circle cx="726" cy="112" r="2.6"/><circle cx="788" cy="70" r="3.2"/>
-        <circle cx="852" cy="104" r="2.8"/><circle cx="700" cy="162" r="2.2"/>
-        <circle cx="876" cy="158" r="2.2"/>
+        <circle cx="600" cy="138" r="2.4"/><circle cx="656" cy="88" r="3.6"/>
+        <circle cx="724" cy="120" r="2.6"/><circle cx="790" cy="74" r="3.2"/>
+        <circle cx="856" cy="110" r="2.8"/><circle cx="698" cy="172" r="2.2"/>
+        <circle cx="878" cy="166" r="2.2"/>
       </g>
 
-      <path class="ps" d="M 706 210 C 630 258, 500 306, 344 324" stroke="#7C3AED" stroke-opacity=".38" stroke-dasharray="3 7"/>
-      <circle class="af" cx="336" cy="325" r="3" fill="#A855F7" stroke="none"/>
+      <path class="ps" d="M 716 268 C 640 322, 500 392, 330 428" stroke="#7C3AED" stroke-opacity=".38" stroke-dasharray="3 7"/>
+      <circle class="af" cx="322" cy="429" r="3" fill="#A855F7" stroke="none"/>
 
-      <circle cx="734" cy="198" r="96" fill="url(#halo)" stroke="none"/>
-      <g transform="translate(692 140) scale(2.05)">
+      <circle cx="746" cy="252" r="104" fill="url(#halo)" stroke="none"/>
+      <g transform="translate(700 192) scale(2.15)">
         <g><animateTransform attributeName="transform" type="translate" values="0 0; 0 -4.5; 0 0" dur="7.5s" repeatCount="indefinite"/>
-          <g class="as" stroke="#A855F7" stroke-width="0.85">
+          <g class="as" stroke="#A855F7" stroke-width="0.8">
             <rect x="7" y="26" width="6" height="15" rx="2.5" stroke-opacity=".65"/>
             <circle cx="20" cy="14" r="11.5"/>
             <ellipse class="hf" cx="20" cy="14" rx="7.5" ry="6" fill="#D8B4FE" fill-opacity=".18"/>
@@ -102,62 +108,72 @@
       </g>
 
       <g fill="#D8B4FE" stroke="none">
-        <circle class="star" cx="596" cy="72" r="2"/><circle class="star d2" cx="884" cy="216" r="1.8"/>
-        <circle class="star d3" cx="590" cy="228" r="1.6"/><circle class="star d4" cx="642" cy="300" r="2"/>
-        <circle class="star d5" cx="820" cy="196" r="1.5"/><circle class="star d6" cx="768" cy="292" r="1.7"/>
+        <circle class="star" cx="592" cy="78" r="2"/><circle class="star s2" cx="886" cy="248" r="1.8"/>
+        <circle class="star s3" cx="586" cy="256" r="1.6"/><circle class="star s4" cx="628" cy="376" r="2"/>
+        <circle class="star s5" cx="822" cy="222" r="1.5"/><circle class="star s6" cx="760" cy="344" r="1.7"/>
       </g>
     </g>
 
     <g class="hr" stroke="#2A1F45">
-      <line x1="558" y1="70" x2="558" y2="322"/>
-      <line x1="554" y1="112" x2="562" y2="112"/><line x1="554" y1="176" x2="562" y2="176"/>
-      <line x1="554" y1="240" x2="562" y2="240"/><line x1="554" y1="304" x2="562" y2="304"/>
+      <line x1="558" y1="66" x2="558" y2="432"/>
+      <line x1="554" y1="120" x2="562" y2="120"/><line x1="554" y1="204" x2="562" y2="204"/>
+      <line x1="554" y1="288" x2="562" y2="288"/><line x1="554" y1="372" x2="562" y2="372"/>
     </g>
 
-    <text class="mono mf" x="40" y="88" font-size="17" fill="#7E6B9E">~/meikuto</text>
-    <text class="mono af" x="145" y="88" font-size="17" fill="#A855F7">&gt;</text>
-    <text class="mono wf" x="167" y="88" font-size="17" fill="#EDE9FE">stack</text>
-    <rect class="af" x="227" y="72" width="10" height="20" fill="#A855F7">
+    <!-- ░░ terminal ░░ -->
+    <text class="mono mf" x="40" y="86" font-size="17" fill="#7E6B9E">~/meikuto</text>
+    <text class="mono af" x="145" y="86" font-size="17" fill="#A855F7">&gt;</text>
+    <text class="mono wf" x="167" y="86" font-size="17" fill="#EDE9FE">whoami</text>
+    <rect class="af" x="252" y="70" width="10" height="20" fill="#A855F7">
       <animate attributeName="opacity" values="1;1;0;0" dur="1.15s" repeatCount="indefinite"/>
     </rect>
 
+    <g class="mono" font-size="13" fill="#D8B4FE">
+      <text class="b1" x="52" y="122"><tspan class="af" fill="#A855F7">→ </tspan>Building web applications</text>
+      <text class="b2" x="52" y="148"><tspan class="af" fill="#A855F7">→ </tspan>Creating REST APIs</text>
+      <text class="b3" x="52" y="174"><tspan class="af" fill="#A855F7">→ </tspan>Developing VS Code extensions</text>
+      <text class="b4" x="52" y="200"><tspan class="af" fill="#A855F7">→ </tspan>Publishing to npm &amp; Marketplace</text>
+    </g>
+
+    <line class="hr" x1="40" y1="232" x2="520" y2="232" stroke="#2A1F45"/>
+
+    <!-- ░░ stack ░░ -->
     <g class="mono">
       <g class="mf" font-size="10" fill="#7E6B9E" letter-spacing="1">
-        <text x="40" y="139">· backend</text>
-        <text x="40" y="195">· frontend</text>
-        <text x="40" y="251">· data &amp; tooling</text>
+        <text x="40" y="262">· backend</text>
+        <text x="40" y="318">· frontend</text>
+        <text x="40" y="374">· data &amp; tooling</text>
       </g>
       <g class="hr" stroke="#2A1F45">
-        <line x1="118" y1="135" x2="520" y2="135"/>
-        <line x1="126" y1="191" x2="520" y2="191"/>
-        <line x1="176" y1="247" x2="520" y2="247"/>
+        <line x1="118" y1="258" x2="520" y2="258"/>
+        <line x1="126" y1="314" x2="520" y2="314"/>
+        <line x1="176" y1="370" x2="520" y2="370"/>
       </g>
 
       <g class="ps" fill="none" stroke="#7C3AED" stroke-opacity=".5">
-        <rect x="166" y="152" width="65" height="23" rx="11.5"/><rect x="239" y="152" width="38" height="23" rx="11.5"/>
-        <rect x="285" y="152" width="31" height="23" rx="11.5"/>
-        <rect x="40"  y="208" width="52" height="23" rx="11.5"/><rect x="100" y="208" width="65" height="23" rx="11.5"/>
-        <rect x="173" y="208" width="85" height="23" rx="11.5"/><rect x="266" y="208" width="72" height="23" rx="11.5"/>
-        <rect x="40"  y="264" width="85" height="23" rx="11.5"/><rect x="133" y="264" width="52" height="23" rx="11.5"/>
-        <rect x="193" y="264" width="65" height="23" rx="11.5"/><rect x="266" y="264" width="58" height="23" rx="11.5"/>
-        <rect x="332" y="264" width="38" height="23" rx="11.5"/><rect x="378" y="264" width="38" height="23" rx="11.5"/>
+        <rect x="166" y="275" width="65" height="23" rx="11.5"/><rect x="239" y="275" width="38" height="23" rx="11.5"/>
+        <rect x="285" y="275" width="31" height="23" rx="11.5"/>
+        <rect x="40"  y="331" width="52" height="23" rx="11.5"/><rect x="100" y="331" width="65" height="23" rx="11.5"/>
+        <rect x="173" y="331" width="85" height="23" rx="11.5"/><rect x="266" y="331" width="72" height="23" rx="11.5"/>
+        <rect x="40"  y="387" width="85" height="23" rx="11.5"/><rect x="133" y="387" width="52" height="23" rx="11.5"/>
+        <rect x="193" y="387" width="58" height="23" rx="11.5"/><rect x="259" y="387" width="38" height="23" rx="11.5"/>
       </g>
       <g class="feat" fill="#7C3AED" fill-opacity=".22" stroke="#A855F7" stroke-opacity=".9">
-        <rect x="40"  y="152" width="65" height="23" rx="11.5"/><rect x="113" y="152" width="45" height="23" rx="11.5"/>
+        <rect x="40" y="275" width="65" height="23" rx="11.5"/><rect x="113" y="275" width="45" height="23" rx="11.5"/>
       </g>
 
       <g class="hf" font-size="11" text-anchor="middle" fill="#D8B4FE">
-        <text x="198.5" y="168">Node.js</text><text x="258" y="168">PHP</text><text x="300.5" y="168">C#</text>
-        <text x="66" y="224">React</text><text x="132.5" y="224">Angular</text>
-        <text x="215.5" y="224">JavaScript</text><text x="302" y="224">Tailwind</text>
-        <text x="82.5" y="280">PostgreSQL</text><text x="159" y="280">MySQL</text><text x="225.5" y="280">MongoDB</text>
-        <text x="295" y="280">Docker</text><text x="351" y="280">Git</text><text x="397" y="280">AWS</text>
+        <text x="198.5" y="291">Node.js</text><text x="258" y="291">PHP</text><text x="300.5" y="291">C#</text>
+        <text x="66" y="347">React</text><text x="132.5" y="347">Angular</text>
+        <text x="215.5" y="347">JavaScript</text><text x="302" y="347">Tailwind</text>
+        <text x="82.5" y="403">PostgreSQL</text><text x="159" y="403">MySQL</text>
+        <text x="222" y="403">Docker</text><text x="278" y="403">Git</text>
       </g>
       <g class="wf" font-size="11" text-anchor="middle" fill="#EDE9FE">
-        <text x="72.5" y="168">Laravel</text><text x="135.5" y="168">.NET</text>
+        <text x="72.5" y="291">Laravel</text><text x="135.5" y="291">.NET</text>
       </g>
     </g>
   </g>
 
-  <rect class="hr" x="0.5" y="0.5" width="899" height="359" rx="14" fill="none" stroke="#2A1F45"/>
+  <rect class="hr" x="0.5" y="0.5" width="899" height="469" rx="14" fill="none" stroke="#2A1F45"/>
 </svg>
