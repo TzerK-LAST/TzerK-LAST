@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 332" width="900" height="332" role="img" aria-label="Stack de Meikuto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-label="Stack de Meikuto">
   <defs>
     <clipPath id="topRule"><rect x="0" y="0" width="900" height="3"/></clipPath>
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
@@ -23,7 +23,7 @@
     </style>
   </defs>
 
-  <rect class="bgf" width="900" height="332" fill="#06040D"/>
+  <rect class="bgf" width="900" height="400" fill="#06040D"/>
 
   <!-- barrido -->
   <rect class="af" width="900" height="3" fill="#A855F7" fill-opacity=".35"/>
@@ -60,7 +60,10 @@
       <animate attributeName="opacity" values="1;1;0;0" dur="1.15s" repeatCount="indefinite"/>
     </rect>
     <text class="lf" x="860" y="312" font-size="10" letter-spacing="2.5" fill="#6B5B8A" text-anchor="end">MEDELLÍN · COLOMBIA</text>
+    <line class="hs" x1="40" y1="336" x2="860" y2="336" stroke="#241A3D"/>
+    <text class="lf" x="40" y="372" font-size="10" letter-spacing="3" fill="#6B5B8A">CONTRIBUTIONS</text>
+    <text class="lf" x="860" y="372" font-size="10" letter-spacing="3" fill="#6B5B8A" text-anchor="end">LAST 12 MONTHS</text>
   </g>
 
-  <rect class="af" y="329" width="900" height="3" fill="#A855F7" fill-opacity=".35"/>
+  <rect class="af" y="397" width="900" height="3" fill="#A855F7" fill-opacity=".35"/>
 </svg>
