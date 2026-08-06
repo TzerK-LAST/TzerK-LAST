@@ -2,26 +2,47 @@
   <defs>
     <clipPath id="panel"><rect x="1" y="1" width="898" height="358" rx="14"/></clipPath>
     <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
-      <stop offset="0%" stop-color="#0A1120"/><stop offset="100%" stop-color="#0C1729"/>
+      <stop class="sB1" offset="0%" stop-color="#0E0A1A"/><stop class="sB2" offset="100%" stop-color="#181030"/>
     </linearGradient>
     <radialGradient id="halo" cx="50%" cy="50%">
-      <stop offset="0%" stop-color="#58A6FF" stop-opacity=".16"/>
-      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+      <stop class="sA" offset="0%" stop-color="#A855F7" stop-opacity=".18"/>
+      <stop class="sA" offset="100%" stop-color="#A855F7" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="rise" cx="50%" cy="50%">
-      <stop offset="0%" stop-color="#1F6FEB" stop-opacity=".26"/>
-      <stop offset="100%" stop-color="#1F6FEB" stop-opacity="0"/>
+      <stop class="sP" offset="0%" stop-color="#7C3AED" stop-opacity=".30"/>
+      <stop class="sP" offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
     <pattern id="dots" width="17" height="17" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="0.9" fill="#58A6FF" fill-opacity=".09"/>
+      <circle class="af" cx="1.5" cy="1.5" r="0.9" fill="#A855F7" fill-opacity=".10"/>
     </pattern>
     <style>
       .mono { font-family: 'JetBrains Mono','SFMono-Regular','SF Mono',Menlo,Consolas,'Liberation Mono',monospace; }
-      .tw { animation: tw 3.6s ease-in-out infinite }
-      .d2{animation-delay:.6s} .d3{animation-delay:1.2s} .d4{animation-delay:1.8s}
-      .d5{animation-delay:2.4s} .d6{animation-delay:3s}
-      @keyframes tw { 0%,100%{opacity:.12} 50%{opacity:.95} }
-      @media (prefers-reduced-motion: reduce) { .tw { animation:none } }
+      @keyframes ps  { 0%,100%{stroke:#7C3AED} 50%{stroke:#1F6FEB} }
+      @keyframes pf  { 0%,100%{fill:#7C3AED}   50%{fill:#1F6FEB} }
+      @keyframes as  { 0%,100%{stroke:#A855F7} 50%{stroke:#58A6FF} }
+      @keyframes af  { 0%,100%{fill:#A855F7}   50%{fill:#58A6FF} }
+      @keyframes hf  { 0%,100%{fill:#D8B4FE}   50%{fill:#A5D6FF} }
+      @keyframes mf  { 0%,100%{fill:#7E6B9E}   50%{fill:#56718F} }
+      @keyframes wf  { 0%,100%{fill:#EDE9FE}   50%{fill:#E8EFF8} }
+      @keyframes hr  { 0%,100%{stroke:#2A1F45} 50%{stroke:#16233C} }
+      @keyframes bf  { 0%,100%{fill:#170F2B}   50%{fill:#0F1A2E} }
+      @keyframes stA { 0%,100%{stop-color:#A855F7} 50%{stop-color:#58A6FF} }
+      @keyframes stP { 0%,100%{stop-color:#7C3AED} 50%{stop-color:#1F6FEB} }
+      @keyframes stB1{ 0%,100%{stop-color:#0E0A1A} 50%{stop-color:#080E1C} }
+      @keyframes stB2{ 0%,100%{stop-color:#181030} 50%{stop-color:#0C1729} }
+      @keyframes tw  { 0%,100%{opacity:.12} 50%{opacity:.95} }
+      .ps{animation:ps 14s ease-in-out infinite}   .pf{animation:pf 14s ease-in-out infinite}
+      .as{animation:as 14s ease-in-out infinite}   .af{animation:af 14s ease-in-out infinite}
+      .hf{animation:hf 14s ease-in-out infinite}   .mf{animation:mf 14s ease-in-out infinite}
+      .wf{animation:wf 14s ease-in-out infinite}   .hr{animation:hr 14s ease-in-out infinite}
+      .bf{animation:bf 14s ease-in-out infinite}
+      .sA{animation:stA 14s ease-in-out infinite}  .sP{animation:stP 14s ease-in-out infinite}
+      .sB1{animation:stB1 14s ease-in-out infinite} .sB2{animation:stB2 14s ease-in-out infinite}
+      .feat{animation:pf 14s ease-in-out infinite, as 14s ease-in-out infinite}
+      .star{animation:tw 3.6s ease-in-out infinite, hf 14s ease-in-out infinite}
+      .d2{animation-delay:.6s,0s} .d3{animation-delay:1.2s,0s} .d4{animation-delay:1.8s,0s}
+      .d5{animation-delay:2.4s,0s} .d6{animation-delay:3s,0s}
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
     </style>
   </defs>
 
@@ -30,52 +51,48 @@
     <rect y="44" width="900" height="316" fill="url(#dots)"/>
     <circle cx="860" cy="360" r="290" fill="url(#rise)"/>
 
-    <rect width="900" height="44" fill="#0F1A2E"/>
-    <line x1="0" y1="44" x2="900" y2="44" stroke="#16233C"/>
-    <circle cx="27" cy="22" r="5.5" fill="#1F6FEB"/>
-    <circle cx="47" cy="22" r="5.5" fill="#58A6FF"/>
-    <circle cx="67" cy="22" r="5.5" fill="#A5D6FF"/>
-    <text class="mono" x="450" y="27" font-size="12" fill="#56718F" text-anchor="middle">github / TzerK-LAST</text>
+    <rect class="bf" width="900" height="44" fill="#170F2B"/>
+    <line class="hr" x1="0" y1="44" x2="900" y2="44" stroke="#2A1F45"/>
+    <circle class="pf" cx="27" cy="22" r="5.5" fill="#7C3AED"/>
+    <circle class="af" cx="47" cy="22" r="5.5" fill="#A855F7"/>
+    <circle class="hf" cx="67" cy="22" r="5.5" fill="#D8B4FE"/>
+    <text class="mono mf" x="450" y="27" font-size="12" fill="#7E6B9E" text-anchor="middle">github / TzerK-LAST</text>
 
-    <!-- ░░ planeta ░░ -->
     <g fill="none" stroke-linecap="round">
-      <circle cx="870" cy="372" r="135" stroke="#1F6FEB" stroke-opacity=".38"/>
-      <circle cx="870" cy="372" r="135" fill="#58A6FF" fill-opacity=".045" stroke="none"/>
-      <path d="M 743 328 Q 870 372 997 326" stroke="#58A6FF" stroke-opacity=".16"/>
-      <path d="M 752 275 Q 870 305 988 272" stroke="#58A6FF" stroke-opacity=".11"/>
+      <circle class="ps" cx="870" cy="372" r="135" stroke="#7C3AED" stroke-opacity=".42"/>
+      <circle class="af" cx="870" cy="372" r="135" fill="#A855F7" fill-opacity=".05" stroke="none"/>
+      <path class="as" d="M 743 328 Q 870 372 997 326" stroke="#A855F7" stroke-opacity=".18"/>
+      <path class="as" d="M 752 275 Q 870 305 988 272" stroke="#A855F7" stroke-opacity=".12"/>
       <g transform="translate(870 372) rotate(-16)">
         <g transform="scale(1,0.24)">
-          <circle r="196" stroke="#1F6FEB" stroke-opacity=".42" stroke-width="2"/>
+          <circle class="ps" r="196" stroke="#7C3AED" stroke-opacity=".45" stroke-width="2"/>
           <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
-             <circle cx="196" cy="0" r="6" fill="#A5D6FF" stroke="none"/></g>
+             <circle class="hf" cx="196" cy="0" r="6" fill="#D8B4FE" stroke="none"/></g>
         </g>
       </g>
 
-      <!-- constelación -->
-      <g stroke="#58A6FF" stroke-opacity=".4">
+      <g class="as" stroke="#A855F7" stroke-opacity=".42">
         <path d="M 604 128 L 660 82 L 726 112 L 788 70 L 852 104"/>
         <path d="M 726 112 L 700 162"/>
         <path d="M 852 104 L 876 158"/>
       </g>
-      <g fill="#A5D6FF" stroke="none">
+      <g class="hf" fill="#D8B4FE" stroke="none">
         <circle cx="604" cy="128" r="2.4"/><circle cx="660" cy="82" r="3.6"/>
         <circle cx="726" cy="112" r="2.6"/><circle cx="788" cy="70" r="3.2"/>
         <circle cx="852" cy="104" r="2.8"/><circle cx="700" cy="162" r="2.2"/>
         <circle cx="876" cy="158" r="2.2"/>
       </g>
 
-      <!-- cordón: cruza el panel y aterriza abajo a la izquierda -->
-      <path d="M 706 210 C 630 258, 500 306, 344 324" stroke="#1F6FEB" stroke-opacity=".34" stroke-dasharray="3 7"/>
-      <circle cx="336" cy="325" r="3" fill="#58A6FF" stroke="none"/>
+      <path class="ps" d="M 706 210 C 630 258, 500 306, 344 324" stroke="#7C3AED" stroke-opacity=".38" stroke-dasharray="3 7"/>
+      <circle class="af" cx="336" cy="325" r="3" fill="#A855F7" stroke="none"/>
 
-      <!-- astronauta -->
       <circle cx="734" cy="198" r="96" fill="url(#halo)" stroke="none"/>
       <g transform="translate(692 140) scale(2.05)">
         <g><animateTransform attributeName="transform" type="translate" values="0 0; 0 -4.5; 0 0" dur="7.5s" repeatCount="indefinite"/>
-          <g stroke="#58A6FF" stroke-width="0.85">
+          <g class="as" stroke="#A855F7" stroke-width="0.85">
             <rect x="7" y="26" width="6" height="15" rx="2.5" stroke-opacity=".65"/>
             <circle cx="20" cy="14" r="11.5"/>
-            <ellipse cx="20" cy="14" rx="7.5" ry="6" fill="#A5D6FF" fill-opacity=".16"/>
+            <ellipse class="hf" cx="20" cy="14" rx="7.5" ry="6" fill="#D8B4FE" fill-opacity=".18"/>
             <rect x="11" y="25" width="18" height="21" rx="6.5"/>
             <path d="M 12 30 C 4 33, 2 39, 4 44"/>
             <path d="M 29 30 C 33 24, 32 17, 27 13"/>
@@ -84,37 +101,39 @@
         </g>
       </g>
 
-      <g fill="#A5D6FF" stroke="none">
-        <circle class="tw" cx="596" cy="72" r="2"/><circle class="tw d2" cx="884" cy="216" r="1.8"/>
-        <circle class="tw d3" cx="590" cy="228" r="1.6"/><circle class="tw d4" cx="642" cy="300" r="2"/>
-        <circle class="tw d5" cx="820" cy="196" r="1.5"/><circle class="tw d6" cx="768" cy="292" r="1.7"/>
+      <g fill="#D8B4FE" stroke="none">
+        <circle class="star" cx="596" cy="72" r="2"/><circle class="star d2" cx="884" cy="216" r="1.8"/>
+        <circle class="star d3" cx="590" cy="228" r="1.6"/><circle class="star d4" cx="642" cy="300" r="2"/>
+        <circle class="star d5" cx="820" cy="196" r="1.5"/><circle class="star d6" cx="768" cy="292" r="1.7"/>
       </g>
     </g>
 
-    <!-- ░░ eje vertical ░░ -->
-    <g stroke="#16233C">
+    <g class="hr" stroke="#2A1F45">
       <line x1="558" y1="70" x2="558" y2="322"/>
       <line x1="554" y1="112" x2="562" y2="112"/><line x1="554" y1="176" x2="562" y2="176"/>
       <line x1="554" y1="240" x2="562" y2="240"/><line x1="554" y1="304" x2="562" y2="304"/>
     </g>
 
-    <!-- ░░ prompt ░░ -->
-    <text class="mono" x="40" y="88" font-size="17" fill="#56718F">~/meikuto</text>
-    <text class="mono" x="145" y="88" font-size="17" fill="#58A6FF">&gt;</text>
-    <text class="mono" x="167" y="88" font-size="17" fill="#E8EFF8">stack</text>
-    <rect x="227" y="72" width="10" height="20" fill="#58A6FF">
+    <text class="mono mf" x="40" y="88" font-size="17" fill="#7E6B9E">~/meikuto</text>
+    <text class="mono af" x="145" y="88" font-size="17" fill="#A855F7">&gt;</text>
+    <text class="mono wf" x="167" y="88" font-size="17" fill="#EDE9FE">stack</text>
+    <rect class="af" x="227" y="72" width="10" height="20" fill="#A855F7">
       <animate attributeName="opacity" values="1;1;0;0" dur="1.15s" repeatCount="indefinite"/>
     </rect>
 
-    <!-- ░░ stack ░░ -->
     <g class="mono">
-      <g font-size="10" fill="#56718F" letter-spacing="1">
-        <text x="40" y="139">· backend</text><line x1="118" y1="135" x2="520" y2="135" stroke="#16233C"/>
-        <text x="40" y="195">· frontend</text><line x1="126" y1="191" x2="520" y2="191" stroke="#16233C"/>
-        <text x="40" y="251">· data &amp; tooling</text><line x1="176" y1="247" x2="520" y2="247" stroke="#16233C"/>
+      <g class="mf" font-size="10" fill="#7E6B9E" letter-spacing="1">
+        <text x="40" y="139">· backend</text>
+        <text x="40" y="195">· frontend</text>
+        <text x="40" y="251">· data &amp; tooling</text>
+      </g>
+      <g class="hr" stroke="#2A1F45">
+        <line x1="118" y1="135" x2="520" y2="135"/>
+        <line x1="126" y1="191" x2="520" y2="191"/>
+        <line x1="176" y1="247" x2="520" y2="247"/>
       </g>
 
-      <g fill="none" stroke="#1F6FEB" stroke-opacity=".45">
+      <g class="ps" fill="none" stroke="#7C3AED" stroke-opacity=".5">
         <rect x="166" y="152" width="65" height="23" rx="11.5"/><rect x="239" y="152" width="38" height="23" rx="11.5"/>
         <rect x="285" y="152" width="31" height="23" rx="11.5"/>
         <rect x="40"  y="208" width="52" height="23" rx="11.5"/><rect x="100" y="208" width="65" height="23" rx="11.5"/>
@@ -123,20 +142,22 @@
         <rect x="193" y="264" width="65" height="23" rx="11.5"/><rect x="266" y="264" width="58" height="23" rx="11.5"/>
         <rect x="332" y="264" width="38" height="23" rx="11.5"/><rect x="378" y="264" width="38" height="23" rx="11.5"/>
       </g>
-      <g fill="#1F6FEB" fill-opacity=".18" stroke="#58A6FF" stroke-opacity=".85">
+      <g class="feat" fill="#7C3AED" fill-opacity=".22" stroke="#A855F7" stroke-opacity=".9">
         <rect x="40"  y="152" width="65" height="23" rx="11.5"/><rect x="113" y="152" width="45" height="23" rx="11.5"/>
       </g>
 
-      <g font-size="11" text-anchor="middle" fill="#A5D6FF">
-        <text x="72.5" y="168" fill="#E8EFF8">Laravel</text><text x="135.5" y="168" fill="#E8EFF8">.NET</text>
+      <g class="hf" font-size="11" text-anchor="middle" fill="#D8B4FE">
         <text x="198.5" y="168">Node.js</text><text x="258" y="168">PHP</text><text x="300.5" y="168">C#</text>
         <text x="66" y="224">React</text><text x="132.5" y="224">Angular</text>
         <text x="215.5" y="224">JavaScript</text><text x="302" y="224">Tailwind</text>
         <text x="82.5" y="280">PostgreSQL</text><text x="159" y="280">MySQL</text><text x="225.5" y="280">MongoDB</text>
         <text x="295" y="280">Docker</text><text x="351" y="280">Git</text><text x="397" y="280">AWS</text>
       </g>
+      <g class="wf" font-size="11" text-anchor="middle" fill="#EDE9FE">
+        <text x="72.5" y="168">Laravel</text><text x="135.5" y="168">.NET</text>
+      </g>
     </g>
   </g>
 
-  <rect x="0.5" y="0.5" width="899" height="359" rx="14" fill="none" stroke="#16233C"/>
+  <rect class="hr" x="0.5" y="0.5" width="899" height="359" rx="14" fill="none" stroke="#2A1F45"/>
 </svg>
